@@ -20,24 +20,23 @@ window.SITE_CONFIG = {
 
      Leave empty ("") to show a fallback email button instead.
   ------------------------------------------------------------------------- */
-  bookingUrl: "",
+  bookingUrl: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3VkqtF8aiI8eKELlLjhH7FpdzkByY0_Q-K1HTFxP8M39WAOsNZHzFZH6DrC4w1rTqGsTy2OUus",
 
-  email: "hello@maramusica.com",               // ← REPLACE
+  email: "contactwalkerjames@gmail.com",               // ← REPLACE
 
   socials: {                                    // ← REPLACE with your profile links
-    Instagram: "https://instagram.com/",
-    Spotify: "https://open.spotify.com/",
-    YouTube: "https://youtube.com/",
+    Instagram: "https://www.instagram.com/mara_musica__/",
+    Spotify: "https://open.spotify.com/playlist/6ddU5xIpNHZaGOjtfB6ibF?si=a138049deaa54785",
   },
 
   /* ---- ACCOLADES ---------------------------------------------------------
      The credibility strip under the hero. Keep each one short and true.
   ------------------------------------------------------------------------- */
   accolades: [
-    { figure: "2×",        label: "Played on BBC Introducing this year" },
+    { figure: "Gold",        label: "Worked with grammy nominated and RIAA Gold certified songwriters" },
     { figure: "BBC",       label: "Artists I've produced played on BBC radio" },
     { figure: "Hot Press", label: "Featured in Hot Press" },
-    { figure: "IMRO",      label: "Recognised by IMRO" },
+    { figure: "IMRO",      label: "Featured on IMRO New Music" },
   ],
 
   /* ---- SELECTED WORK -----------------------------------------------------
@@ -46,36 +45,32 @@ window.SITE_CONFIG = {
   ------------------------------------------------------------------------- */
   work: [
     {
-      title: "Track title",                     // ← REPLACE
-      artist: "Artist name",
-      role: "Produced & co-wrote",
-      tags: ["Singer-songwriter", "Amapiano drums"],
-      story: "Started with two hours of talking about a friendship that fell apart. The chorus came out of something they said halfway through.",
-      spotify: "",
+      title: "Man Enough",                     // ← REPLACE
+      artist: "Summer Raine",
+      role: "Produced, co-wrote, Mixed & Mastered",
+      tags: ["RnB"],
+      spotify: "https://open.spotify.com/track/47F6PvA8HwUPMExZJrRLiw?si=d23b1fcdc915494b",
     },
     {
-      title: "Track title",                     // ← REPLACE
-      artist: "Artist name",
-      role: "Produced",
-      tags: ["Pop", "Reggaeton groove", "BBC Introducing"],
-      story: "They sent a voice memo of a melody they'd been humming for a year. We built the whole world around it over two remote sessions.",
-      spotify: "",
+      title: "Redeem",                     // ← REPLACE
+      artist: "SEAMUS, HALLI, Rasmus Batelly",
+      role: "Produced, co-wrote & Mixed",
+      tags: ["DnB", "MYE", "BBC Introducing"],
+      spotify: "https://open.spotify.com/track/5kZf7Ow1lY3xbMsJRav7ou?si=791f8626b9d44358",
     },
     {
-      title: "Track title",                     // ← REPLACE
-      artist: "Orkney songwriting camp",
-      role: "Co-wrote & produced",
-      tags: ["Camp session", "Acoustic"],
-      story: "Five writers, one island, no phone signal. Written and tracked in a single day.",
-      spotify: "",
+      title: "Faithless (Sacrifice) Remix",                     // ← REPLACE
+      artist: "Lex Bucha",
+      role: "Remixed",
+      tags: ["DnB", "Featured on Hot Press"],
+      spotify: "https://open.spotify.com/track/4TCOPDt543UmBMeYUejwlK?si=a58c2a833b4d4db1",
     },
     {
-      title: "Track title",                     // ← REPLACE
-      artist: "Artist name",
-      role: "Produced & arranged",
-      tags: ["Alt-pop", "Live guitars"],
-      story: "A half-finished demo that had sat on their laptop for two years. Now it's out.",
-      spotify: "",
+      title: "Exothermic Girl",                     // ← REPLACE
+      artist: "HALLI",
+      role: "Produced, co-wrote, Mixed & Mastered",
+      tags: ["RnB", "BBC Introducing"],
+      spotify: "https://open.spotify.com/track/1Uj4MCSSgOtFn6UGR27OZ8?si=8f232deca9934107",
     },
   ],
 
@@ -86,19 +81,18 @@ window.SITE_CONFIG = {
      - releases: one row per release. url can be Spotify, Apple, SoundCloud...
   ------------------------------------------------------------------------- */
   discography: {
-    playlist: "",                               // ← e.g. https://open.spotify.com/playlist/...
+    playlist: "https://open.spotify.com/playlist/6ddU5xIpNHZaGOjtfB6ibF?si=b92f7a06413a46b5",                               // ← e.g. https://open.spotify.com/playlist/...
     platforms: {                                // ← REPLACE
       Spotify: "https://open.spotify.com/",
-      "Apple Music": "https://music.apple.com/",
-      SoundCloud: "https://soundcloud.com/",
+
     },
     releases: [                                 // ← REPLACE
-      { year: "2026", title: "Release title", artist: "Artist name", role: "Producer", url: "" },
-      { year: "2026", title: "Release title", artist: "Artist name", role: "Producer, co-writer", url: "" },
-      { year: "2026", title: "Release title", artist: "Artist name", role: "Producer", url: "" },
-      { year: "2025", title: "Release title", artist: "Artist name", role: "Producer, mix", url: "" },
-      { year: "2025", title: "Release title", artist: "Artist name", role: "Co-writer", url: "" },
-      { year: "2024", title: "Release title", artist: "Artist name", role: "Producer", url: "" },
+      { year: "2026", title: "Redeem", artist: "SEAMus, HALLI, Rasmus Batelly", role: "Artist, Producer", url: "https://open.spotify.com/track/5kZf7Ow1lY3xbMsJRav7ou?si=3d6d54f3225645e7" },
+      { year: "2026", title: "Man Enough", artist: "Summer Raine", role: "Producer, co-writer", url: "https://open.spotify.com/track/47F6PvA8HwUPMExZJrRLiw?si=8283b2c5912b46a4" },
+      { year: "2026", title: "Faithless (Sacriice) SEAMUS Remix", artist: "Lex Bucha", role: "Producer, Remixer", url: "https://open.spotify.com/track/4TCOPDt543UmBMeYUejwlK?si=ed59878733814898" },
+      { year: "2025", title: "Just an Accident", artist: "Rasmus Batelly", role: "Producer", url: "https://open.spotify.com/track/3J3XSxpdvxMKIFpap3mMfm?si=afd63ea22dce4108" },
+      { year: "2025", title: "High Altitude (SEAMUS Remix)", artist: "Lex Bucha", role: "Producer, Remixer", url: "https://open.spotify.com/track/4ki8tu9ffbecpPlWsUDAZR?si=6d4f5e3cca4c47ba" },
+      { year: "2025", title: "Exothermic Girl", artist: "HALLI", role: "Producer", url: "https://open.spotify.com/track/1Uj4MCSSgOtFn6UGR27OZ8?si=c8c6c940048749b9" },
     ],
   },
 
@@ -106,10 +100,10 @@ window.SITE_CONFIG = {
      Articles, features, radio plays, press releases.
   ------------------------------------------------------------------------- */
   press: [                                      // ← REPLACE titles + links
-    { outlet: "Hot Press",       date: "2026", title: "Feature title goes here",           url: "" },
-    { outlet: "BBC Introducing", date: "2026", title: "Radio play: track name",            url: "" },
-    { outlet: "BBC Introducing", date: "2026", title: "Radio play: track name",            url: "" },
-    { outlet: "IMRO",            date: "2026", title: "Recognition / award / showcase name", url: "" },
+    { outlet: "Hot Press",       date: "2026", title: "New Irish Songs To Hear This Week",           url: "https://www.hotpress.com/music/new-irish-songs-to-hear-this-week-284-23168811" },
+    { outlet: "BBC Introducing", date: "2026", title: "Undrtone. Interview",            url: "https://www.undrtone.co.uk/post/seamus-on-redeem-orkney-songwriting-camps-and-balancing-emotion-with-dancefloor-impact" },
+    { outlet: "BBC Introducing", date: "2026", title: "Lex Bucha Unleashes High-Energy Drum and Bass Remix of Faithless (Sacrifice) with SEAMUS",            url: "https://www.perspectiveonlife.nl/2026/11/lex-bucha-faithless-sacrifice-seamus-remix.html" },
+    { outlet: "IMRO",            date: "2026", title: "Magnetic Magazine", url: "https://magneticmag.com/2026/04/redeem-via-make-your-era/" },
   ],
 
   /* ---- KIND WORDS --------------------------------------------------------

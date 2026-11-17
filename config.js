@@ -101,8 +101,8 @@ window.SITE_CONFIG = {
   ------------------------------------------------------------------------- */
   press: [                                      // ← REPLACE titles + links
     { outlet: "Hot Press",       date: "2026", title: "New Irish Songs To Hear This Week",           url: "https://www.hotpress.com/music/new-irish-songs-to-hear-this-week-284-23168811" },
-    { outlet: "BBC Introducing", date: "2026", title: "Undrtone. Interview",            url: "https://www.undrtone.co.uk/post/seamus-on-redeem-orkney-songwriting-camps-and-balancing-emotion-with-dancefloor-impact" },
-    { outlet: "BBC Introducing", date: "2026", title: "Lex Bucha Unleashes High-Energy Drum and Bass Remix of Faithless (Sacrifice) with SEAMUS",            url: "https://www.perspectiveonlife.nl/2026/11/lex-bucha-faithless-sacrifice-seamus-remix.html" },
+    { outlet: "Undrtone.", date: "2026", title: "Undrtone. Interview",            url: "https://www.undrtone.co.uk/post/seamus-on-redeem-orkney-songwriting-camps-and-balancing-emotion-with-dancefloor-impact" },
+    { outlet: "PERSPECTIVE", date: "2026", title: "Lex Bucha Unleashes High-Energy Drum and Bass Remix of Faithless (Sacrifice) with SEAMUS",            url: "https://www.perspectiveonlife.nl/2026/11/lex-bucha-faithless-sacrifice-seamus-remix.html" },
     { outlet: "IMRO",            date: "2026", title: "Magnetic Magazine", url: "https://magneticmag.com/2026/04/redeem-via-make-your-era/" },
   ],
 

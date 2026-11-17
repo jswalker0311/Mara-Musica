@@ -87,7 +87,7 @@ window.SITE_CONFIG = {
 
     },
     releases: [                                 // ← REPLACE
-      { year: "2026", title: "Redeem", artist: "SEAMus, HALLI, Rasmus Batelly", role: "Artist, Producer", url: "https://open.spotify.com/track/5kZf7Ow1lY3xbMsJRav7ou?si=3d6d54f3225645e7" },
+      { year: "2026", title: "Redeem", artist: "SEAMUS, HALLI, Rasmus Batelly", role: "Artist, Producer", url: "https://open.spotify.com/track/5kZf7Ow1lY3xbMsJRav7ou?si=3d6d54f3225645e7" },
       { year: "2026", title: "Man Enough", artist: "Summer Raine", role: "Producer, co-writer", url: "https://open.spotify.com/track/47F6PvA8HwUPMExZJrRLiw?si=8283b2c5912b46a4" },
       { year: "2026", title: "Faithless (Sacriice) SEAMUS Remix", artist: "Lex Bucha", role: "Producer, Remixer", url: "https://open.spotify.com/track/4TCOPDt543UmBMeYUejwlK?si=ed59878733814898" },
       { year: "2025", title: "Just an Accident", artist: "Rasmus Batelly", role: "Producer", url: "https://open.spotify.com/track/3J3XSxpdvxMKIFpap3mMfm?si=afd63ea22dce4108" },
